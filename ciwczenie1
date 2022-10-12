@@ -1,0 +1,35 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	double x;
+	double y;
+
+	printf("podaj x");
+	scanf("%lf",&x);
+	printf("\npodaj y");
+	scanf("%lf",&y);
+	printf("\n%f",y);
+	printf("\n%f",x);
+
+	double wynikdodawania = x+y;
+	double wynikodejmowania = x-y;
+	double wynikmnozenia = x*y;
+	double wynikdzielenia = x/y;
+
+	printf("\n%f",wynikdodawania);
+	printf("\n%f",wynikodejmowania);
+	printf("\n%f",wynikmnozenia);
+	printf("\n%f",wynikdzielenia);
+	
+	system("pause");
+	
+	
+	return 0;
+	
+	
+	
+	
+}
